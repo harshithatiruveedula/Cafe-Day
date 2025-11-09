@@ -872,6 +872,40 @@ body {
     font-size: 1.2rem;
   }
 }
+/* === Perfect mobile layout fix for Cafe Day header === */
+@media (max-width: 768px) {
+
+  /* Keep full header image visible without zoom */
+  .header {
+    background: url('Cafe Day1.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+  }
+
+  /* Position texts manually for perfect alignment on mobile */
+  .header-text {
+    position: absolute;
+    top: 40%; /* Adjust up/down to match heart */
+    left: 68%; /* Moves Cafe Day slightly right */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+  }
+
+  .header-text h1 {
+    font-size: 2rem; /* Cafe Day text */
+  }
+
+  .header-text p {
+    position: absolute;
+    top: 120%; /* Move below the cup */
+    left: 15%; /* Position near left side of cup */
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    width: auto;
+  }
+}
 
 
 
