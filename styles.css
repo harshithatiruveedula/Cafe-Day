@@ -600,7 +600,8 @@ body {
 
   .header-background {
       background-image: url('coffee1.jpg');
-      background-size: contain; /* instead of cover */
+      background-size: cover;
+      background-position: center top;
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: scroll; /* fixed → scroll (mobile safe) */
