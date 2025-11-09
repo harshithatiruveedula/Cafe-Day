@@ -844,6 +844,34 @@ body {
     left: 10%;
   }
 }
+/* Fix header layout for mobile screens only */
+@media (max-width: 768px) {
+  .header {
+    background: url('Cafe Day1.jpg') no-repeat center center;
+    background-size: contain; /* Show entire image without zooming */
+    height: auto;
+    aspect-ratio: 16 / 9; /* Maintain proportions */
+    background-color: #000; /* prevents gaps on top/bottom */
+    position: relative;
+  }
+
+  .header-text {
+    position: absolute;
+    top: 52%; /* adjust slightly if text isn't aligned */
+    left: 58%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+  }
+
+  .header-text h1 {
+    font-size: 2.2rem; /* same as desktop */
+  }
+
+  .header-text p {
+    font-size: 1.2rem;
+  }
+}
 
 
 
