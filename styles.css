@@ -872,40 +872,36 @@ body {
     font-size: 1.2rem;
   }
 }
-/* === Perfect mobile layout fix for Cafe Day header === */
+/* === Mobile fix for Cafe Day header alignment === */
 @media (max-width: 768px) {
-
-  /* Keep full header image visible without zoom */
   .header {
     background: url('Cafe Day1.jpg') no-repeat center center;
     background-size: cover;
     height: 100vh;
     position: relative;
+    overflow: hidden;
   }
 
-  /* Position texts manually for perfect alignment on mobile */
   .header-text {
     position: absolute;
-    top: 40%; /* Adjust up/down to match heart */
-    left: 68%; /* Moves Cafe Day slightly right */
+    top: 38%; /* keeps Cafe Day near the steam */
+    left: 67%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 80%;
   }
 
   .header-text h1 {
-    font-size: 2rem; /* Cafe Day text */
+    font-size: 2rem;
+    margin: 0;
   }
 
   .header-text p {
     position: absolute;
-    top: 120%; /* Move below the cup */
-    left: 15%; /* Position near left side of cup */
+    top: 72%; /* adjust vertical position */
+    left: 20%; /* move horizontally beside cup */
     transform: translateY(-50%);
-    font-size: 1.2rem;
-    width: auto;
+    font-size: 1.3rem;
+    width: 60%;
+    text-align: left;
   }
 }
-
-
-
