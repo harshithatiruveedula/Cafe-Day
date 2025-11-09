@@ -586,7 +586,7 @@ body {
         right: 6%;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .hero-header {
     background-position: center top;
     background-size: cover;
