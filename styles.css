@@ -917,7 +917,7 @@ body {
 
   .header-text {
     position: absolute;
-    top: 45%; /* lowered slightly for better balance */
+    top: 25%; /* lowered slightly for better balance */
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -930,7 +930,7 @@ body {
 
   .header-text p {
     position: absolute;
-    top: 78%;  /* move upward if still too low */
+    top: 155%;  /* move upward if still too low */
     left: 63%; /* move closer to cup by increasing this value */
     transform: translate(-50%, -50%);
     font-size: 1.3rem;
