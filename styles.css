@@ -21,9 +21,9 @@ body {
         background-attachment: fixed;
         background-size: cover;
         background-position: center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        -webkit-background-attachment: fixed;
+        -moz-background-attachment: fixed;
+        -o-background-attachment: fixed;
     }
 }
 
@@ -308,15 +308,15 @@ body {
 @media (max-width: 768px) {
     .cafe-title {
         font-size: 3.5rem;
-        right: 10%;
-        top: 16%;
-        transform: rotate(-2deg);
-        letter-spacing: 2px;
+        right: 15%;
+        top: 20%;
+        transform: rotate(-3deg);
+        letter-spacing: 3px;
     }
     
     .tagline {
         font-size: 1.8rem;
-        left: 5%;
+        left: 8%;
         bottom: 20%;
     }
     
@@ -339,13 +339,13 @@ body {
     }
     
     .header {
-        min-height: 500px;
+        min-height: 100vh;
         height: 100vh;
     }
     
     .header-background {
-        background-size: contain;
-        background-position: center center;
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
     }
     
@@ -405,14 +405,28 @@ body {
     }
     
     .header {
-        min-height: 500px;
-        height: auto;
+        min-height: 100vh;
+        height: 100vh;
     }
     
     .header-background {
-        background-size: contain;
-        background-position: center center;
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
+    }
+    
+    .cafe-title {
+        font-size: 2.8rem;
+        right: 12%;
+        top: 18%;
+        transform: rotate(-3deg);
+        letter-spacing: 2px;
+    }
+    
+    .tagline {
+        font-size: 1.5rem;
+        left: 6%;
+        bottom: 18%;
     }
     
     .footer {
@@ -484,14 +498,28 @@ body {
     }
     
     .header {
-        min-height: 550px;
-        height: auto;
+        min-height: 100vh;
+        height: 100vh;
     }
     
     .header-background {
-        background-size: contain;
-        background-position: center center;
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
+    }
+    
+    .cafe-title {
+        font-size: 2.2rem;
+        right: 10%;
+        top: 15%;
+        transform: rotate(-2deg);
+        letter-spacing: 1px;
+    }
+    
+    .tagline {
+        font-size: 1.2rem;
+        left: 4%;
+        bottom: 15%;
     }
 }
 
