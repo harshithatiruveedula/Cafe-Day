@@ -813,6 +813,37 @@ body {
     overflow: hidden;
   }
 }
+/* === Mobile header fix === */
+@media (max-width: 768px) {
+  .header {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("coffee1.jpg"); /* your header image */
+    background-size: contain;  /* shows full image without zoom */
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+  }
+
+  /* keep text readable and inside heart area */
+  .cafe-title {
+    font-size: 2.3rem;
+    top: 40%;
+    right: 12%;
+  }
+
+  .tagline {
+    font-size: 1.3rem;
+    bottom: 18%;
+    left: 10%;
+  }
+}
 
 
 
