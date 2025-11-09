@@ -347,9 +347,10 @@ body {
     }
     
     .header-background {
-        background-size: cover;
-        background-position: center;
+        background-size: contain;
+        background-position: center center;
         background-repeat: no-repeat;
+        background-color: #3e2723;
     }
     
     .header-content {
@@ -424,9 +425,10 @@ body {
     }
     
     .header-background {
-        background-size: cover;
-        background-position: center;
+        background-size: contain;
+        background-position: center center;
         background-repeat: no-repeat;
+        background-color: #3e2723;
     }
     
     .header-content {
@@ -528,9 +530,10 @@ body {
     }
     
     .header-background {
-        background-size: cover;
-        background-position: center;
+        background-size: contain;
+        background-position: center center;
         background-repeat: no-repeat;
+        background-color: #3e2723;
     }
     
     .header-content {
