@@ -18,9 +18,12 @@ body {
 
 @media (max-width: 768px) {
     body {
-        background-attachment: scroll;
+        background-attachment: fixed;
         background-size: cover;
         background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
     }
 }
 
@@ -341,8 +344,9 @@ body {
     }
     
     .header-background {
-        background-size: cover;
+        background-size: contain;
         background-position: center center;
+        background-repeat: no-repeat;
     }
     
     .coffee-beans {
@@ -401,13 +405,14 @@ body {
     }
     
     .header {
-        min-height: 450px;
-        height: 100vh;
+        min-height: 500px;
+        height: auto;
     }
     
     .header-background {
-        background-size: cover;
+        background-size: contain;
         background-position: center center;
+        background-repeat: no-repeat;
     }
     
     .footer {
@@ -476,6 +481,17 @@ body {
     .contact-icon {
         width: 18px;
         height: 18px;
+    }
+    
+    .header {
+        min-height: 550px;
+        height: auto;
+    }
+    
+    .header-background {
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
     }
 }
 
