@@ -756,5 +756,22 @@ body {
       white-space: nowrap;
   }
 }
+/* ✅ FINAL MOBILE HEADER IMAGE FIX — keeps desktop unchanged */
+@media (max-width: 768px) {
+  .header-background {
+    background-image: url('coffee1.jpg'); /* same image as desktop */
+    background-size: cover;              /* fills area nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;       /* fixes mobile image disappearing */
+    display: block;
+  }
+
+  .header {
+    background: none; /* prevent body background conflict */
+    overflow: hidden;
+  }
+}
+
 
 
