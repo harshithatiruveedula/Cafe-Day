@@ -343,12 +343,23 @@ body {
     .header {
         min-height: 100vh;
         height: 100vh;
+        overflow: visible;
     }
     
     .header-background {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+    }
+    
+    .header-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        max-width: none;
     }
     
     .coffee-beans {
@@ -409,12 +420,23 @@ body {
     .header {
         min-height: 100vh;
         height: 100vh;
+        overflow: visible;
     }
     
     .header-background {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+    }
+    
+    .header-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        max-width: none;
     }
     
     .cafe-title {
@@ -502,12 +524,23 @@ body {
     .header {
         min-height: 100vh;
         height: 100vh;
+        overflow: visible;
     }
     
     .header-background {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+    }
+    
+    .header-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        max-width: none;
     }
     
     .cafe-title {
