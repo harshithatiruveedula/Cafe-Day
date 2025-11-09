@@ -341,42 +341,23 @@ body {
     }
     
     .header {
-        min-height: auto;
-        height: auto;
+        min-height: 100vh;
+        height: 100vh;
         overflow: hidden;
-        margin-top: 0;
     }
     
     .header-background {
         background-size: cover;
-        background-position: center top;
+        background-position: center;
         background-repeat: no-repeat;
-        min-height: 60vh;
-        height: 60vh;
     }
     
     .header-content {
-        position: absolute;
-        top: 0;
-        left: 0;
+        position: relative;
         width: 100%;
-        height: 60vh;
-        padding: 0;
-        max-width: none;
-    }
-    
-    .cafe-title {
-        font-size: 3rem;
-        top: 20%;
-        right: 15%;
-        transform: rotate(-3deg);
-        letter-spacing: 3px;
-    }
-    
-    .tagline {
-        font-size: 1.6rem;
-        bottom: 20%;
-        left: 8%;
+        height: 100%;
+        padding: 2rem;
+        max-width: 1200px;
     }
     
     .coffee-beans {
@@ -400,16 +381,10 @@ body {
 @media (max-width: 480px) {
     .cafe-title {
         font-size: 2.2rem;
-        right: 6%;
-        top: 12%;
-        transform: rotate(-1deg);
-        letter-spacing: 1px;
     }
     
     .tagline {
         font-size: 1.3rem;
-        left: 3%;
-        bottom: 12%;
     }
     
     .section-title {
@@ -435,42 +410,23 @@ body {
     }
     
     .header {
-        min-height: auto;
-        height: auto;
+        min-height: 100vh;
+        height: 100vh;
         overflow: hidden;
-        margin-top: 0;
     }
     
     .header-background {
         background-size: cover;
-        background-position: center top;
+        background-position: center;
         background-repeat: no-repeat;
-        min-height: 55vh;
-        height: 55vh;
     }
     
     .header-content {
-        position: absolute;
-        top: 0;
-        left: 0;
+        position: relative;
         width: 100%;
-        height: 55vh;
-        padding: 0;
-        max-width: none;
-    }
-    
-    .cafe-title {
-        font-size: 2.5rem;
-        top: 20%;
-        right: 15%;
-        transform: rotate(-3deg);
-        letter-spacing: 2px;
-    }
-    
-    .tagline {
-        font-size: 1.3rem;
-        bottom: 20%;
-        left: 8%;
+        height: 100%;
+        padding: 2rem;
+        max-width: 1200px;
     }
     
     .footer {
@@ -500,15 +456,10 @@ body {
 @media (max-width: 360px) {
     .cafe-title {
         font-size: 1.8rem;
-        right: 4%;
-        top: 10%;
-        letter-spacing: 0.5px;
     }
     
     .tagline {
         font-size: 1.1rem;
-        left: 2%;
-        bottom: 10%;
     }
     
     .section-title {
@@ -542,42 +493,23 @@ body {
     }
     
     .header {
-        min-height: auto;
-        height: auto;
+        min-height: 100vh;
+        height: 100vh;
         overflow: hidden;
-        margin-top: 0;
     }
     
     .header-background {
         background-size: cover;
-        background-position: center top;
+        background-position: center;
         background-repeat: no-repeat;
-        min-height: 50vh;
-        height: 50vh;
     }
     
     .header-content {
-        position: absolute;
-        top: 0;
-        left: 0;
+        position: relative;
         width: 100%;
-        height: 50vh;
-        padding: 0;
-        max-width: none;
-    }
-    
-    .cafe-title {
-        font-size: 2rem;
-        top: 20%;
-        right: 15%;
-        transform: rotate(-3deg);
-        letter-spacing: 1px;
-    }
-    
-    .tagline {
-        font-size: 1.1rem;
-        bottom: 20%;
-        left: 8%;
+        height: 100%;
+        padding: 2rem;
+        max-width: 1200px;
     }
 }
 
