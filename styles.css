@@ -114,6 +114,7 @@ body {
     bottom: -150%;
     left: 2%;
     text-align: left;
+    z-index: 6;
 }
 
 .cafe-title {
@@ -286,14 +287,15 @@ body {
 @media (max-width: 1024px) {
     .cafe-title {
         font-size: 4.5rem;
-        right: 13%;
-        top: 18%;
+        right: 18%;
+        top: -200%;
         transform: rotate(-3deg);
     }
     
     .tagline {
         font-size: 2rem;
-        left: 8%;
+        left: 2%;
+        bottom: -150%;
     }
     
     .menu-grid {
@@ -308,16 +310,16 @@ body {
 @media (max-width: 768px) {
     .cafe-title {
         font-size: 3.5rem;
-        right: 15%;
-        top: 20%;
+        right: 18%;
+        top: -200%;
         transform: rotate(-3deg);
         letter-spacing: 3px;
     }
     
     .tagline {
         font-size: 1.8rem;
-        left: 8%;
-        bottom: 20%;
+        left: 2%;
+        bottom: -150%;
     }
     
     .section-title {
@@ -417,16 +419,16 @@ body {
     
     .cafe-title {
         font-size: 2.8rem;
-        right: 12%;
-        top: 18%;
+        right: 18%;
+        top: -200%;
         transform: rotate(-3deg);
         letter-spacing: 2px;
     }
     
     .tagline {
         font-size: 1.5rem;
-        left: 6%;
-        bottom: 18%;
+        left: 2%;
+        bottom: -150%;
     }
     
     .footer {
@@ -510,16 +512,16 @@ body {
     
     .cafe-title {
         font-size: 2.2rem;
-        right: 10%;
-        top: 15%;
-        transform: rotate(-2deg);
+        right: 18%;
+        top: -200%;
+        transform: rotate(-3deg);
         letter-spacing: 1px;
     }
     
     .tagline {
         font-size: 1.2rem;
-        left: 4%;
-        bottom: 15%;
+        left: 2%;
+        bottom: -150%;
     }
 }
 
