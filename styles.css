@@ -16,6 +16,14 @@ body {
     background-repeat: no-repeat;
 }
 
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
 /* Header Section */
 .header {
     width: 100%;
@@ -40,6 +48,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 
 .wood-texture {
     position: absolute;
@@ -328,6 +337,12 @@ body {
     
     .header {
         min-height: 500px;
+        height: 100vh;
+    }
+    
+    .header-background {
+        background-size: cover;
+        background-position: center center;
     }
     
     .coffee-beans {
@@ -386,7 +401,13 @@ body {
     }
     
     .header {
-        min-height: 400px;
+        min-height: 450px;
+        height: 100vh;
+    }
+    
+    .header-background {
+        background-size: cover;
+        background-position: center center;
     }
     
     .footer {
