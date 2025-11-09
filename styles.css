@@ -905,3 +905,36 @@ body {
     text-align: left;
   }
 }
+/* === Perfect mobile alignment for Cafe Day header === */
+@media (max-width: 768px) {
+  .header {
+    background: url('Cafe Day1.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .header-text {
+    position: absolute;
+    top: 45%; /* lowered slightly for better balance */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .header-text h1 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .header-text p {
+    position: absolute;
+    top: 78%;  /* move upward if still too low */
+    left: 63%; /* move closer to cup by increasing this value */
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+    text-align: left;
+    width: 70%;
+  }
+}
