@@ -857,7 +857,7 @@ body {
 
   .header-text {
     position: absolute;
-    top: 52%; /* adjust slightly if text isn't aligned */
+    top: 0%; /* adjust slightly if text isn't aligned */
     left: 58%;
     transform: translate(-50%, -50%);
     text-align: center;
