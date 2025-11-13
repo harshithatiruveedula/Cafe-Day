@@ -224,7 +224,7 @@ body {
 /* Mobile */
 @media (max-width: 768px) {
   .header {
-    height: 200vh;
+    height: 100vh;
     overflow: hidden;
     background: none;
   }
