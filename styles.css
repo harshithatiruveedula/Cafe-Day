@@ -847,7 +847,7 @@ body {
 /* Fix header layout for mobile screens only */
 @media (max-width: 768px) {
   .header {
-    background: url('Cafe Day1.jpg') no-repeat center center;
+    background: url('Rectangle 1.jpg') no-repeat center center;
     background-size: contain; /* Show entire image without zooming */
     height: auto;
     aspect-ratio: 16 / 9; /* Maintain proportions */
