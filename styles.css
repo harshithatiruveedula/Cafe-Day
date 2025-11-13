@@ -236,7 +236,7 @@ body {
 /* ✅ Final Responsive Fix - Mobile Header Layout */
 @media (max-width: 768px) {
     .header {
-        background: url('Rectangle 1.jpg') no-repeat center center;
+        background: url('Coffee1.jpg') no-repeat center center;
         background-size: contain; /* Show full image without zoom */
         height: auto;
         aspect-ratio: 16 / 9;
